@@ -1,0 +1,43 @@
+{
+    "key": "group_62ffccbc69d04",
+    "title": "Blog Posts",
+    "fields": [
+        {
+            "key": "field_62ffccc1ba0b8",
+            "label": "Header Caption",
+            "name": "header_caption",
+            "type": "textarea",
+            "instructions": "Optional - Text in this box will show up as a caption overlay on the header photo. If left blank, nothing will appear.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 5,
+            "new_lines": "br"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1660931407
+}

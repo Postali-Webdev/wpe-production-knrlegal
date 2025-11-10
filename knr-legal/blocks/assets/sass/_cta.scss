@@ -1,0 +1,7 @@
+.cta {    
+    .container {
+        .columns {
+            @include ppc-block;
+        }
+    }
+}

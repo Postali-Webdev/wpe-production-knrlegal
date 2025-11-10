@@ -1,0 +1,204 @@
+#gform_wrapper_2,
+#gform_wrapper_5,
+#gform_wrapper_8 {
+    #field_2_1 {
+        legend {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 20px;
+
+            @include respond(phone) {
+                font-size: 24px;
+                line-height: 120%;
+            }
+        }
+
+        .gfield_required {
+            color: $blk;
+            display: inline-block;
+            font-size: 15px;
+            padding-left: 3px;
+            margin-top: -2px !important;
+            position: absolute;
+        }
+    }
+
+    #field_2_3 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 60px;
+
+        @include respond(phone) {
+            margin-top: 20px;
+        }
+    }
+
+    .disclaimer {
+        margin-top: 20px;
+        line-height: 120%;
+
+        p {
+            font-size: 13px;
+            display: inline;
+            font-weight: normal;
+        }
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        background: none;
+        border: none;
+        border-bottom: 1px solid $blk;
+        padding-left: 0 !important;
+
+        &::-webkit-input-placeholder {
+            color:$blk;
+            opacity: 1;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        &::-moz-placeholder {
+            color:$blk;
+            opacity: 1;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        &:-ms-input-placeholder {
+            color:$blk;
+            opacity: 1;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        &::-ms-input-placeholder {
+            color:$blk;
+            opacity: 1;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        &::placeholder {
+            color:$blk;
+            opacity: 1;
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+
+    #gform_submit_button_2, #gform_submit_button_8 {
+        border: none;
+        border-radius: 0;
+        background: $blk;
+        color: $white;
+        padding: 20px 50px;
+        margin-top: 40px;
+        -webkit-appearance: none;
+    }
+
+    .gform_required_legend {
+        display: none;
+    }
+
+    /* Buttonize Radio Fields */
+
+    .gfield {
+        margin-top: 20px;
+        
+        &.buttonized {
+            .gfield_radio {
+                display:flex;
+                flex-wrap: wrap;
+                
+                .gchoice {
+                    position: relative;
+                    text-align: center;
+                    white-space: nowrap;
+                    margin-bottom: 15px;
+                }
+
+                label {
+                    display: inline-block !important;
+                    position: relative;
+                    width:auto;
+                    padding: 5px 20px;
+                    font-size: 15px;
+                    border: 1px solid $blk;
+                    background-color: none;
+                    cursor: pointer;
+                    border-radius: 50px;
+                    max-width: 100%;
+                    margin-right: 15px;
+
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+
+            input[type="radio"] {
+                position: absolute;
+                left: -9999px;
+
+                &:focus+label {
+                    border-color: #040404;
+                }
+
+                &:checked+label {
+                    border-color: #040404;
+                    background-color: $green;
+                    overflow: hidden;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+// forms embedded on interior pages
+
+#gform_wrapper_4,
+#gform_wrapper_6 {
+    background:$white;
+    padding:60px;
+    margin-bottom: 60px;
+
+    .gform_required_legend {
+        font-size: 14px;
+    }
+
+    .ginput_container_fileupload input {
+        border-bottom: none;
+    }
+
+    .gfield textarea.small {
+        border:none;
+        border-bottom: 1px solid $blk;
+    }
+
+    #gform_submit_button_4, #gform_submit_button_6 {
+        height: 50px;
+        padding: 0 60px;
+        border: none;
+        border-radius: 50px;
+        margin: 30px 0 0 0;
+        font-weight: 700;
+        background: $green;
+        -webkit-appearance: none;
+        transition:$trans;
+
+        &:hover {
+            background:$blk;
+            color:$white;
+        }
+    }
+}
+
+//sponsorships form
+#gform_confirmation_message_4 {
+    background: $white;
+    padding: 50px;
+    margin: 50px 0;
+    box-sizing: border-box;
+  }

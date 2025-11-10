@@ -1,0 +1,74 @@
+{
+    "key": "group_6304e0d34d74e",
+    "title": "Community Posts",
+    "fields": [
+        {
+            "key": "field_6304e0e1f5e11",
+            "label": "Post Type",
+            "name": "post_type",
+            "type": "text",
+            "instructions": "What type of post is this (event, community support, etc)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Event",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6304e130f5e12",
+            "label": "Location",
+            "name": "location",
+            "type": "checkbox",
+            "instructions": "This can be left unchecked if location is not pertinent to this post & will show up under 'All of Ohio' by default.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all": "All of Ohio",
+                "northwest": "Northwest Ohio",
+                "northeast": "Northeast Ohio",
+                "central": "Central Ohio",
+                "southwest": "Southwest Ohio",
+                "southeast": "Southeast Ohio"
+            },
+            "default_value": [
+                "all"
+            ],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "communitysupport"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1667836351
+}

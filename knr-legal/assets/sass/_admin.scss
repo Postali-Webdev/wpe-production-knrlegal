@@ -1,0 +1,24 @@
+.mce-postali-mceu-button {
+    button {
+        border-radius: 3px;
+        border: solid 1px #0071a1;
+        padding: 3px 5px !important;
+        font-size: 14px !important;
+        background: #f6f7f7;
+        transition: 300ms ease;
+        &:hover {
+            background: #0071a1;
+            border: solid 1px #f6f7f7;
+            .mce-txt {
+                color: #f6f7f7;
+            }
+        }
+        .mce-txt {
+            font-size: 12px !important;
+            line-height: normal !important;
+            font-weight: 500;
+            color: #0071a1;
+            transition: 300ms ease;
+        }
+    }   
+}

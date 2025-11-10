@@ -1,0 +1,55 @@
+// header nav animations
+
+@keyframes arrow-left {
+    0% { opacity:0; right:18px; }
+    100% { opacity:1; right:15px; }
+}
+
+@-webkit-keyframes arrow-left {
+    0% { opacity:0; right:18px; }
+    100% { opacity:1; right:15px; }
+}
+
+@keyframes fadein {
+    0% { opacity:0; top:80px; }
+    100% { opacity:1; top:90px; }
+}
+
+@-webkit-keyframes fadein {
+    0% { opacity:0; top:80px; }
+    100% { opacity:1; top:90px; }
+}
+
+// grayscale to color hovers
+
+@keyframes color-fill {
+    0% { -webkit-filter:grayscale(0); filter:grayscale(0); }
+    100% { -webkit-filter:grayscale(1); filter:grayscale(1); }
+}
+
+@-webkit-keyframes color-fill {
+    0% { -webkit-filter:grayscale(0); filter:grayscale(0); }
+    100% { -webkit-filter:grayscale(1); filter:grayscale(1); }
+}
+
+// fade results in
+
+@keyframes results-fade {
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes results-fade {
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes highlight {
+    from {background-position: 0% 0;}
+    to {background-position: -100% 0;}
+}
+
+@keyframes highlight {
+    from {background-position: 0% 0;}
+    to {background-position: -100% 0;}
+}

@@ -1,0 +1,376 @@
+/**
+ * Footer Styles
+ *
+ * @package Postali Child
+ * @author Postali LLC
+**/
+
+footer {
+    background: $white;
+    position: relative;
+    z-index: 4;
+    section {
+        padding: 0 !important;
+    }
+    .copy-and-form {
+        margin-bottom: 80px;
+        @include respond(tab-port) {
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        .column-33 {
+            padding-top: 80px;
+            @include respond(desktop) {
+                width: 40%;
+            }
+            @include respond(tab-port) {
+                width: 100%;
+                padding-top: 30px;
+            }
+            .container {
+                 padding-right: 0 !important;
+                @include respond(tab-port) {
+                    padding-left: 0px !important;
+                    max-width: 90%;
+                    margin: 0 auto;
+                }
+                img {
+                    @include respond(tab-port) {
+                        max-width: 300px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        .column-66 {
+            background: $blk;
+            padding: 50px;
+            @include respond(desktop) {
+                width: 55%;
+            }
+            @include respond(tab-port) {
+                width: 100%;
+                margin: 0 auto;
+                padding: 30px 5%;
+            }
+            .form-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 50px;
+                @include respond(desktop) {
+                    flex-direction: column;
+                }
+                .contact-inner-wrapper {
+                    width: 30%;
+                    @include respond(desktop) {
+                        width: 100%;
+                    }
+                    .green-pill {
+                        border-radius: 50px;
+                        text-align: center;
+                        padding: 5px 22px;
+                        color: $blk;
+                        background: $green;
+                        width: fit-content;
+                        font-weight: $bold;
+                        font-size: 14px;
+                    }
+                    .large-title {
+                        color: $white;
+                        font-size: 36px;
+                        line-height: 120%;
+                        margin-bottom: 10px;
+                        font-weight: $bold;
+                    }
+                    p:not(.green-pill):not(.large-title) {
+                        color: $white;
+                        font-size: 16px;
+                        line-height: 160%;
+                    }
+                }
+                .form-inner-wrapper {
+                    width: 70%;
+                    @include respond(desktop) {
+                        width: 100%;
+                    }
+                    .gform_wrapper {
+                        .gform_heading {
+                            display: none !important;
+                        }
+                        input, textarea {
+                            border: 0;
+                            border-bottom: solid 1px $white;
+                            background: transparent;
+                            color: $white;
+                            font-size: 16px;
+                            line-height: 160%;
+                            padding: 10px 0;
+                            &::placeholder {
+                                color: $white;
+                                opacity: 1;
+                            }
+                        }
+                        .gfield--type-textarea {
+                            .gfield_label {
+                                display: none !important;
+                            }
+                        }
+                        .gfield--type-html {
+                            p {
+                                font-size: 12px;
+                                color: $white;
+                                line-height: 160%;
+                                margin: 0 !important;
+                            }
+                            a {
+                                color: $white;
+                                text-decoration: underline;
+                            }
+                        }
+                        input[type="submit"] {
+                            background: none;
+                            border: solid 2px $white;
+                            border-radius: 0;
+                            color: $white;
+                            padding: 10px 22px;
+                            cursor: pointer;
+                            transition: $trans;
+                            &:hover {
+                                background: $white;
+                                color: $blk;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .social-and-menus {
+        margin-bottom: 80px !important;
+        &.container.wide {
+            @include respond(tab-port) {
+                padding-bottom: 0 !important;
+            }
+        }
+        .columns {
+            @include respond(tab-port) {
+                gap: 80px;
+            }
+        }
+        .column-25 {
+            @include respond(tab-port) {
+                width: 100%;
+                display: flex !important;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .phone-icon, .phone-icon img {
+                width: 150px;
+                height: auto;
+                margin-bottom: 30px;
+            }
+            a.email {
+                display: block;
+                color: $blk;
+                font-size: 22px;
+                font-weight: $bold;
+                margin-bottom: 20px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .column-75.links-column {
+            width: 70%;
+            gap: 30px;
+            @include respond(tab-land) {
+                width: 60%;
+            }
+            @include respond(tab-port) {
+                width: 100%;
+            }
+            .practice-areas, .quick-links {
+                width: 48%;
+                flex-grow: 1;
+                ul {
+                    margin: 0;
+                    list-style-type: none;
+                    li {
+                        margin: 0;
+                        a {
+                            color: $blk;
+                            font-weight: $bold;
+                            text-decoration: underline;
+                            @include swipe;
+                        }
+                    }
+                }
+            }
+        }
+        #menu-social-media-menu-1 {
+            display: flex;
+            margin: 0;
+            list-style-type: none;
+            align-items: center;
+            border: none;
+            @include respond(tab-port) {
+                gap: 10px;
+            }
+            li {
+                border: none;
+                width: auto;
+    
+                @include social-media-icons;
+    
+                &.social-fb,
+                &.social-instagram,
+                &.social-linkedin,
+                &.social-twitter,
+                &.social-youtube,
+                &.social-tiktok {
+                    margin: 0 10px 0 0;
+                    max-width: 30px;
+    
+                    a {
+                        background: $blk;
+    
+                        &:hover {
+                            background: $grey;
+    
+                            &::before {
+                                display: none;
+                            }
+                        }
+    
+                        &::after {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .locations {
+        margin-bottom: 80px !important;
+        .locations-grid {
+            display: grid;
+            justify-content: flex-start;
+            align-items: flex-start;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            @include respond(desktop) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            @include respond(tab-land) {
+                grid-template-columns: repeat(2, 1fr);
+            }  
+
+            .location {
+                a {
+                    font-size: 16px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+               .name {
+                    margin-bottom: 5px !important;
+                    font-weight: $bold;
+                    font-size: 18px;
+                    a {
+                        font-weight: $bold;
+                        font-size: 18px;
+                    }
+               }
+               .address {
+                margin-bottom: 5px !important;
+                line-height: 130%;
+                a {
+                    font-size: 16px;
+                }
+               }
+               p, a {
+                color: $blk;
+               }
+            }
+        }
+    }
+
+    .disclaimer-and-copyright {
+        padding: 30px 0;
+        background: $grey;
+        .container.wide {
+            @include respond(desktop) {
+                padding: 0 !important;
+            }
+            @include respond(tab-port) {
+                padding: 0 !important;
+            }
+        }
+        p, a {
+            font-size: 16px;
+            color: $blk;
+        }
+        a {
+            text-decoration: underline;
+        }
+        .line-break {
+            background: $blk;
+            width: 100%;
+            height: 2px;
+            margin-bottom: 30px;
+        }
+        p {
+            &:last-of-type {
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+
+    .line-wrapper {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 30px;
+        .grey-pill {
+            border-radius: 50px;
+            text-align: center;
+            padding: 5px 22px;
+            color: $blk;
+            background: $grey;
+            width: fit-content;
+            min-width: fit-content;
+            font-weight: $normal;
+            font-size: 14px;
+            margin: 0 !important;
+            &.extra-text {
+                @include respond(phone) {
+                    min-width: 200px;
+                    text-align: left;
+                }
+            }
+        }
+        .line {
+            background: $grey;
+            width: 100%;
+            height: 2px;
+        }
+    }
+    .container.wide {
+        @include respond(tab-port) {
+            margin: 0 auto !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            width: 90% !important; 
+        }
+    }    
+
+}

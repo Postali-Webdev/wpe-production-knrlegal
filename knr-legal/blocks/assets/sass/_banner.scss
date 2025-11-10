@@ -1,0 +1,32 @@
+#banner {
+    .banner-cta {
+        display:block;
+
+        p {
+            margin-left: 0;
+            font-weight: bold;
+        }
+    }
+
+    p {
+        font-size: 18px !important;
+        line-height: 145% !important;
+    }
+
+    @include ppc-block;
+}
+
+#banner-img {
+    padding: 0;
+
+    img {
+        width: 100%;
+        height: 400px;
+        -o-object-fit: cover;
+           object-fit: cover;
+
+        @media screen and (max-width:600px) {
+            height:250px;
+        }
+    }
+}

@@ -1,0 +1,238 @@
+/**
+ * Web Font Styles, H Styles, Body Text Styles
+ *
+ * @package Postali Child
+ * @author Postali LLC
+**/
+
+/* Fonts */
+body, h1, h2, h3, h4, h5, h6, p, a, ul {
+    // color: $body-text-color;
+} 
+
+p, a, ul, ol {
+
+}
+
+ul li, ol li {
+    margin: 0 0 0 20px;
+    font-size: 18px;
+}
+
+dl, blockquote, img {
+
+}
+
+a {
+    text-decoration:none;
+    transition:$trans;
+
+    &:hover {
+        // color:$lt-red;
+        text-decoration:none;
+    }
+}
+
+.btn {
+    display:inline-flex;
+    padding:20px 60px !important;
+    text-decoration:none !important;
+    font-size: 16px !important;
+    transition:$trans;
+    font-weight: 400 !important;
+    height:auto;
+    align-items: center;
+    margin-top: 20px;
+    color:$white !important;
+    transition: $trans;
+    width: auto !important;
+
+    &.black {
+        background:$blk;
+
+        &:hover {
+            background:$red;
+        }
+    }
+
+    &.red {
+        background:$red;
+
+        &:hover {
+            background:$blk;
+        }
+    }
+
+    &.transparent {
+        background: none;
+        color: $blk !important;
+        border: 1px solid $blk;
+        height: 42px;
+
+        &:hover {
+            background:$green;
+        }
+    }
+
+    &.green {
+        background:$green;
+        color:$blk !important;
+        font-weight: 700;
+
+        &:hover {
+            background:$white;
+        }
+    }
+
+    &.rounded {
+        border-radius: 50px;
+        padding:0 30px !important;
+        height:40px;
+    }
+
+    &.wide {
+        padding:0 60px;
+    }
+
+    &.bordered {
+        border:1px solid $blk;
+    }
+
+}
+
+
+h1, h2, h3, h4 {
+    a {
+        color:inherit;
+        font-weight: inherit;
+        text-decoration: underline;
+        position: relative;
+
+        @include swipe;
+    }
+}
+
+h1 {
+    color:$blk;
+    font-size: 75px;
+    font-weight: 900 !important;
+    line-height: 105%;
+    margin-bottom: 30px !important;
+    display: block;
+    text-transform: none;
+
+    @include respond(desktop-lg) {
+        font-size: 65px;
+    }
+
+    @include respond(phone) {
+        font-size: 50px;
+        margin-bottom: 10px !important;
+    }
+}
+
+h2 {
+    color:$blk;
+    font-size: 58px;
+    font-weight: 900 !important;
+    line-height: 105%;
+    margin-bottom: 30px !important;
+    display: block;
+
+    @include respond(desktop-lg) {
+        font-size: 50px;
+    }
+
+    @include respond(desktop) {
+        font-size: 45px;
+    }
+
+    @include respond(phone) {
+        font-size: 35px !important;
+    }
+}
+
+h3 {
+    font-size: 39px;
+    line-height: 120%;
+    margin-bottom: 30px !important;
+    font-weight: 900 !important;
+
+    @include respond(tab-port) {
+        font-size: 36px;
+    }
+
+    @include respond(phone) {
+        font-size: 24px;
+    }
+}
+
+h4 {
+    font-size: 27px;
+    line-height: 120%;
+    margin-bottom: 30px !important;
+    font-weight: 900 !important;
+
+    @include respond(phone) {
+        font-size: 22px;
+    }
+}
+
+p {
+    line-height: 170%;
+    margin-bottom:30px !important;
+    font-size: 20px;
+
+    &.sub-text {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    &.banner-subhead {
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 115%;
+
+        @include respond(desktop-lg) {
+            font-size: 32px;
+        }
+
+        @include respond(phone) {
+            font-size: 28px;
+        }
+    }
+
+    &.spaced {
+        letter-spacing: 2px;
+    }
+    
+    &.small {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    &.x-small {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    &.large {
+        font-size: 24px;
+        line-height: 150%;
+    }
+
+    &#breadcrumbs {
+        font-size: 14px;
+        color:$blk;
+        font-weight: 400;
+
+        @include respond(phone) {
+            margin-bottom: 0 !important;
+        }
+        
+        a {
+            color:inherit;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,270 @@
+#wpsl-wrap {
+    @include respond(tab-port) {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .wpsl-mobile {
+        .wpsl-search {
+            display: flex;
+            left: calc(50% - 125px);
+            min-width: 250px;
+            bottom: 30px;
+        }
+    }
+
+    #wpsl-gmap,
+    #wpsl-result-list {
+        width: 50%;
+
+        @include respond(tab-port) {
+            width:100%;
+            margin:0 !important;
+        }
+    }
+
+    #wpsl-gmap {
+        @include respond(phone) {
+            height:350px !important;
+
+            .wpsl-icon-direction {
+                display:none !important;
+            }
+        }
+    }
+
+
+}
+
+#wpsl-result-list {
+    #wpsl-stores {
+        li {
+            list-style: none!important;
+            background: #e9eaf0;
+            display: block;
+            text-align: center;
+            padding:40px 0 30px;
+            transition:.3s ease all;
+            position: relative;
+
+            a {
+                padding:3px 6px;
+                margin-left: -3px;
+            }
+
+            &:hover {
+                background:white !important;
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+                z-index: 5;
+
+                a {
+                    background-position: 0% 0;
+                    padding: 3px 6px;
+                    width: -webkit-max-content;
+                    width: -moz-max-content;
+                    width: max-content;
+                    background-size: 201% auto;
+                    background-color: transparent;
+                    background-image: linear-gradient(to right, transparent 50%, #DBFF76 50%);
+                    -webkit-animation-duration: 1s;
+                    animation-duration: 1s;
+                    -webkit-animation-delay: 0s;
+                    animation-delay: 0s;
+                    -webkit-animation-iteration-count: 1;
+                    animation-iteration-count: 1;
+                    -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+                    margin-left: -3px;
+                    color:inherit;
+                    background-position: -100% 0;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "\e913";
+                    background: #dbff76;
+                    height: 40px;
+                    width: 40px;
+                    top: 25px;
+                    right: 25px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: icomoon;
+                    color:black;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                color:black !important;
+                line-height: 125% !important;
+
+                span,
+                strong {
+                    font-size: inherit;
+                    color:inherit;
+                }
+
+                strong {
+                    font-size: 20px !important;
+                    font-weight: 700;
+                    color: black !important;
+                    margin-bottom: 10px !important;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+#wpsl-direction-details {
+    background: white;
+    padding:40px 50px;
+    box-sizing: border-box;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+
+        li {
+            padding: 5px 10px 5px 30px;
+            border-bottom: 1px dotted #ccc;
+            margin-left: 0;
+            overflow: hidden;
+            list-style: none outside none!important;
+            text-indent: 0;
+        }
+    }
+
+    .wpsl-back {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        color: black !important;
+        text-transform: uppercase;
+        text-decoration: underline;
+        padding: 5px;
+        background: #dbff76;
+        line-height: 100%;
+    }
+}
+
+input#wpsl-search-input {
+    border: none;
+    text-align: center;
+
+    &::-webkit-input-placeholder {
+        font-size: 15px;
+    }
+
+    &::-moz-placeholder {
+        font-size: 15px;
+    }
+
+    &:-ms-input-placeholder {
+        font-size: 15px;
+    }
+
+    &::-ms-input-placeholder {
+        font-size: 15px;
+    }
+
+    &::placeholder {
+        font-size: 15px;
+    }
+}
+
+.wpsl-search {
+    margin-bottom: 0;
+    padding: 8px;
+    background: white;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    left: 54%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+
+    @include respond(phone) {
+        position: absolute;
+        left: 5%;
+        top: 260px;
+        min-width: 90%;
+        box-sizing: border-box;
+    }
+}
+
+#wpsl-search-wrap {
+    form {
+        @include respond(phone) {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    
+    .wpsl-input {
+        position: relative;
+        margin-bottom: 0;
+        z-index: 2;
+
+        label {
+            display: none;
+        }
+    }
+
+    .wpsl-search-btn-wrap {
+        position: relative;
+        z-index: 5;
+
+        @include respond(phone) {
+            margin-top: 7px;
+        }
+        
+        &::before {
+            position: absolute;
+            content: "\e905";
+            z-index: 5;
+            color: #000;
+            font-family: "Icomoon";
+            line-height: 0;
+            top: 21px;
+            font-size: 16px!important;
+            left: 11px;
+        }
+
+        #wpsl-search-btn {
+            border: none;
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            text-indent: -9999px;
+            background: #dbff76;
+            position: relative;
+            margin-right: 5px;
+        }
+    }
+}
+
+#wpsl-search-wrap div {
+    margin-right: 0;
+    float: left;
+    position: absolute;
+    right: 0;
+}
+
+#wpsl-result-list {
+    #wpsl-stores {
+        li {
+           span {
+            color:white;
+           } 
+        }
+    }
+}

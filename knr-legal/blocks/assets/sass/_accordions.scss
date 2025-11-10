@@ -1,0 +1,20 @@
+#accordions-block {
+    .accordions {
+        width: 100%;
+        background: #fff;
+        margin-bottom: 20px;
+
+        .accordions_title {
+            padding: 30px 8% 30px 30px;
+        }
+
+        .accordions_content {
+            padding: 0 8% 30px 30px;
+
+            p {
+                font-size: 18px !important;
+                line-height: 145% !important;
+            }
+        }
+    }
+}
