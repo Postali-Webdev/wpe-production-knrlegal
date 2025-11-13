@@ -72,26 +72,31 @@ if (is_tree('19502')) {
                     if( $phone_image ) : ?>
                         <a href="tel:<?php echo get_field('global_phone', 'options'); ?>"><?php echo wp_get_attachment_image( $phone_image['ID'], 'full', '', array( 'class' => 'phone-icon' ) ); ?></a>
                         <a href="mailto:<?php echo get_field('global_email', 'options'); ?>" class="email"><?php echo esc_html(get_field('global_email', 'options')); ?></a>
+                        <nav role="navigation">
                         <?php
                             $args = array( 'container' => false, 'theme_location' => 'social-media-menu' );
                             wp_nav_menu( $args );
-                        ?>
+                        ?></nav>
                     <?php endif; ?>
                 </div>
                 <div class="column-75 links-column">
                     <div class="practice-areas">
                         <div class="line-wrapper"><p class="grey-pill">How Can We Help?</p><div class="line"></div></div>
+                        <nav role="navigation">
                         <?php
                             $args = array( 'container' => false, 'theme_location' => 'footer-practice-areas' );
                             wp_nav_menu( $args );
                         ?>
+                        </nav>
                     </div>
                     <div class="quick-links">
                         <div class="line-wrapper"><p class="grey-pill">Who We Are</p><div class="line"></div></div>
+                        <nav role="navigation">
                         <?php
                             $args = array( 'container' => false, 'theme_location' => 'footer-quick-links' );
                             wp_nav_menu( $args );
                         ?>
+                        </nav>
                     </div>
                 </div>
             </div>

@@ -226,6 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			
 			<div id="header-top_right">
 				<div id="header-top_menu">
+                    <nav role="navigation">
                     <?php
                         $args = array( 'container' => false, 'theme_location' => 'main-nav-about' );
                         wp_nav_menu( $args );
@@ -238,10 +239,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         $args = array( 'container' => false, 'theme_location' => 'main-nav-results-locations-resources' );
                         wp_nav_menu( $args );
                     ?>	
-
+                    
                     <ul id="menu-main-nav-contact" class="menu">
                         <li class="main-nav-contact menu-item menu-item-type-custom">
-                            <a href="<?php if ($location <> 'global') { ?>/<?php echo $location; ?><?php } ?>/contact/">Contact</a>
+                            <a href="<?php if ($locationfd <> 'global') { ?>/<?php echo $location; ?><?php } ?>/contact/">Contact</a>
                         </li>
                     </ul>
 
@@ -256,6 +257,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <button type="submit" class="btn btn-search" id="search-button"><span class="icon-search-icon" aria-hidden="true"></span></button>
                         <button type="button" class="btn btn-search-close hdn" id="hide-search-input-container"><span class="icon-icon-close" aria-hidden="true"></span></button>
                     </form>	
+                    </nav>
 
                     <div class="search-background"></div>
 
