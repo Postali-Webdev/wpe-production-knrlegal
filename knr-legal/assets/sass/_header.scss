@@ -102,7 +102,8 @@ header {
             display:flex;
             flex-wrap: nowrap;
 
-            #header-top_menu {
+            #header-top_menu, 
+            nav {
                 display:flex;
 
                 @include respond(desktop) {
