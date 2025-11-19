@@ -3,7 +3,7 @@
 .page-template-page-ppc-landing_v3,
 .page-template-page-ppc-landing-pmax,
 .page-template-page-ppc-detailed-landing {
-    #chatter-bot-launcher-container { // hide chat
+    #chatter-bot-launcher-container, .desktop-left-contact, .anniversary-tout, .call-follower, #apexchat_tab_invitation_wrapper, #apexchat_prechat_invitation_wrapper { // hide chat
         display: none !important;
     }
     #head-menu,
