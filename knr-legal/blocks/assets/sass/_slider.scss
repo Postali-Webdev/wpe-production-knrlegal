@@ -293,6 +293,7 @@
 #attorney-slider {
     .attorney-container {
         display:flex !important;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
@@ -311,22 +312,22 @@
             }
         }
     }
+}
 
-    .slide-pagination {
+.slide-pagination {
+    display: flex;
+
+    span.icon-chevron-left,
+    span.icon-chevron-right {
+        height: 50px;
+        width: 50px;
         display: flex;
-
-        span.icon-chevron-left,
-        span.icon-chevron-right {
-            height: 50px;
-            width: 50px;
-            display: flex;
-            font-size: 20px;
-            font-weight: bold;
-            justify-content: center;
-            align-items: center;
-            background: black;
-            color: #DBFF76;
-            border-radius: 50%;
-        }
+        font-size: 20px;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        color: #DBFF76;
+        border-radius: 50%;
     }
 }

@@ -12,9 +12,6 @@
     "grunt-contrib-watch": "^1.1.0"
   },
   "main": "Gruntfile.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

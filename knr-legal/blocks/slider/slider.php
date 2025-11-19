@@ -170,6 +170,7 @@
                                 <img src="<?php echo esc_url($attorney['url']); ?>" alt="<?php echo esc_attr($attorney['alt']); ?>"  class="atty-img"/>
                             <?php endif; ?>
                             </div>
+                            <div class="spacer-30"></div>
                             <div class="column-50">
                                 <h3><?php the_sub_field('attorney_name'); ?></h3>
                                 <p><?php the_sub_field('attorney_bio'); ?></p>

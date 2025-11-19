@@ -40,6 +40,9 @@
 		wp_register_script('custom-scripts', get_stylesheet_directory_uri() . '/assets/js/scripts.min.js',array('jquery'), '1.02', true); 
 		wp_enqueue_script('custom-scripts');
 
+        // Register block scripts
+        wp_register_script('block-slider-scripts', get_stylesheet_directory_uri() . '/blocks/assets/js/slick-custom.min.js',array('jquery'), null, true); 
+
 		if ( is_front_page() ) {
             wp_register_script('home-js', get_stylesheet_directory_uri() . '/assets/js/home.min.js', array('jquery'));
             wp_enqueue_script('home-js');		
@@ -119,6 +122,14 @@
         }
 
 	}
+
+
+    function enqueue_custom_block_assets() {
+        if( has_block('acf/slider') ) {
+            wp_enqueue_script('block-slider-scripts');
+        }
+    }
+    add_action( 'enqueue_block_assets', 'enqueue_custom_block_assets');
 
 	// Register Site Navigations
 	function postali_child_register_nav_menus() {

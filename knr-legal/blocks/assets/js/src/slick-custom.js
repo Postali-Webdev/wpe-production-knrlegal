@@ -114,14 +114,14 @@ jQuery( function ( $ ) {
         $('#testimonial-slider').slick("slickPrev");
     });
 
-    $('.slider-next-button-slick-generic').click(function(){
+    $('.slider-next-button-slick-generic').click(function () {
         $('#generic-slider').slick("slickNext");
     });
     $('.slider-prev-button-slick-generic').click(function(){
         $('#generic-slider').slick("slickPrev");
     });
 
-    $('.slider-next-button-slick-attorney').click(function(){
+    $('.slider-next-button-slick-attorney').click(function () {
         $('#attorney-slider').slick("slickNext");
     });
     $('.slider-prev-button-slick-attorney').click(function(){
