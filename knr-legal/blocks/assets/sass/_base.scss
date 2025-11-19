@@ -1,5 +1,13 @@
 .page-template-ppc-block {
-
+    #chatter-bot-launcher-container,
+        .desktop-left-contact,
+        .anniversary-tout,
+        .call-follower,
+        #apexchat_tab_invitation_wrapper,
+        #apexchat_prechat_invitation_wrapper {
+            // hide chat
+            display: none !important;
+    }
     .desktop-left-contact,
     #header-top_right {
         display: none !important;
