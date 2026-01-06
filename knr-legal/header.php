@@ -296,19 +296,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
 		</div>
 	</header>
-    <?php if( !is_front_page() ) : 
-        $review_banner = get_field('global_banner', 'options');
-        $review_banner_badge = $review_banner['review_badge'];
-        $enable_global_banner = $review_banner['enable_global_banner'];
-        $review_banner_link = $review_banner['notice_banner_link'];
-        if( $enable_global_banner ) : ?>
-            <div class="review-banner">
-                <p class="banner-text"><?php esc_html_e($review_banner['copy']); ?> 
-                    <?php if( $review_banner_link ) : ?> <a href="<?php echo $review_banner_link['url']; ?>"><?php echo $review_banner_link['title']; ?></a> <?php endif; ?>
-                </p>
-            </div>
-        <?php endif;
-    endif; ?>
 
     <div class="desktop-left-contact">
         <span class="sidebar-name">Kisling, Nestico & Redick, LLC</span>
@@ -483,9 +470,3 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </a>
 
 <?php } ?>
-
-
-<a class="anniversary-tout" href="/about-us/#video">
-    <img src="/wp-content/uploads/2025/02/knr-20-logo_v2.png" alt="KNR 20th Anniversary logo">
-</a>
-<div class="anniversary-tout-spacer"></div>
