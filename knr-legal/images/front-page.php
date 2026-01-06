@@ -12,10 +12,7 @@ $review_banner_badge = $review_banner['review_badge'];
 ?>
 
 <div id="front-page">
-<div class="review-banner">
-    <img src="<?php esc_html_e($review_banner_badge['url']); ?>" alt="<?php esc_html_e($review_banner_badge['alt']); ?>" title="<?php esc_html_e($review_banner_badge['title']); ?>">
-    <p class="banner-text"><?php esc_html_e($review_banner['copy']); ?></p>
-</div>
+
     <div class="body-container">
 
         <section class="hp-main-banner">

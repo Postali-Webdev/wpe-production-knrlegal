@@ -48,10 +48,7 @@ $next_anchor = strtolower( str_replace(' ', '-', get_field('p4_section_anchor_ti
 <?php get_header(); ?>
 
 <div class="ppc-landing">
-<div class="review-banner">
-    <img src="<?php esc_html_e($review_banner_badge['url']); ?>" alt="<?php esc_html_e($review_banner_badge['alt']); ?>" title="<?php esc_html_e($review_banner_badge['title']); ?>">
-    <p class="banner-text"><?php esc_html_e($review_banner['copy']); ?></p>
-</div>
+
 <?php $background_img = get_field('header_background_image'); ?>
 
     <section id="header" style="background-image:url(<?php echo esc_url($background_img['url']); ?>);">

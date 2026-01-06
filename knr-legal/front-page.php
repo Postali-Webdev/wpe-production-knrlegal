@@ -13,11 +13,6 @@ $review_banner_link = $review_banner['notice_banner_link'];
 ?>
 
 <div id="front-page">
-<div class="review-banner">
-    <p class="banner-text"><?php esc_html_e($review_banner['copy']); ?> 
-        <?php if( $review_banner_link ) : ?> <a href="<?php echo $review_banner_link['url']; ?>"><?php echo $review_banner_link['title']; ?></a> <?php endif; ?>
-    </p>
-</div>
     <div class="body-container">
 
         <section class="hp-main-banner">
