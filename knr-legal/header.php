@@ -226,7 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			
 			<div id="header-top_right">
 				<div id="header-top_menu">
-                    <nav role="navigation">
+                    <!-- <nav role="navigation"> -->
                     <?php
                         $args = array( 'container' => false, 'theme_location' => 'main-nav-about' );
                         wp_nav_menu( $args );
@@ -239,7 +239,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         $args = array( 'container' => false, 'theme_location' => 'main-nav-results-locations-resources' );
                         wp_nav_menu( $args );
                     ?>	
-                    </nav>
+                    <!-- </nav> -->
                     
                     <ul id="menu-main-nav-contact" class="menu">
                         <li class="main-nav-contact menu-item menu-item-type-custom">
