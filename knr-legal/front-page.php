@@ -13,6 +13,11 @@ $review_banner_link = $review_banner['notice_banner_link'];
 ?>
 
 <div id="front-page">
+
+    
+    <?php get_template_part('block', 'banner');?>
+	
+
     <div class="body-container">
 
         <section class="hp-main-banner">
