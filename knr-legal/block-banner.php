@@ -6,11 +6,12 @@ $review_badge = $banner_group['review_badge'];
 $button = $banner_group['notice_banner_link'];
 if( $enable_banner ) : ?>
 
-<div class="notice-banner">
-    <div class="copy">
-        <p class="sub-text"><?php echo $copy; ?></p>
-    </div>
-    <a href="<?php echo $button['url']; ?>" class="btn red"><?php echo $button['title']; ?></a>
+<div class="review-banner">
+    <p class="banner-text">
+        <?php echo $copy; ?>
+        <a href="<?php echo $button['url']; ?>"><?php echo $button['title']; ?></a>
+    </p>
+    
 </div>
 
 <?php endif; ?>
