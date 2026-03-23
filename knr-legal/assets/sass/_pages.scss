@@ -490,7 +490,7 @@
 
 }
 
-.post-type-archive-attorneys {
+.post-type-archive-attorneys, .post-type-archive-directors, .single-directors {
     h1 {
         font-size: 14px;
         text-transform: uppercase;
@@ -709,6 +709,25 @@
             height: 60px;
             font-size: 15px !important;
             font-weight: bold !important;
+        }
+    }
+}
+
+.post-type-archive-directors, .single-directors {
+    .attorney-profile-box {
+        img {
+            filter: grayscale(0%) !important;
+            -webkit-filter: grayscale(0%) !important;
+        }
+        .name {
+            font-weight: $bold;
+            margin-bottom: 0 !important;
+            font-size: 20px;
+            font-family: $sans;
+        }
+        .title {
+            margin-bottom: 0 !important;   
+            font-size: 16px;
         }
     }
 }

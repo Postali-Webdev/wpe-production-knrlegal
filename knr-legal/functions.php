@@ -12,6 +12,7 @@
 	require_once dirname( __FILE__ ) . '/includes/testimonials-cpt.php'; // Custom Post Type Testimonials
     require_once dirname( __FILE__ ) . '/includes/communitysupport-cpt.php'; // Custom Post Type Community Support
 	require_once dirname( __FILE__ ) . '/includes/attorneys-cpt.php'; // Custom Post Type Attorneys
+	require_once dirname( __FILE__ ) . '/includes/directors-cpt.php'; // Custom Post Type Directors
 	//require_once dirname( __FILE__ ) . '/includes/social-share.php'; // Social Media Sharing
 
 
