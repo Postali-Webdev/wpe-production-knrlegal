@@ -260,7 +260,7 @@ header {
                                 -webkit-animation: .3s ease 0s normal forwards 1 fadein;
                                 animation: .3s ease 0s normal forwards 1 fadein;
 
-                                @media screen and (max-width:$tab-land) {
+                                @media screen and (max-width:$desktop) {
                                     -webkit-animation:none;
                                     animation:none;
                                 }
@@ -309,7 +309,7 @@ header {
 
                         &.menu-item-has-children {
                             a {
-                                padding-right: 30px !important;
+                                padding-right: 27px !important;
                             }
                             &::after {
                                 content: "▼";
