@@ -51,26 +51,4 @@ get_header(); ?>
 
 </div>
 
-<section class="black">
-    <div class="container">
-        <div class="columns">
-            <div class="column-66 center centered block">
-                <div class="memorial-photo">
-                <?php 
-                    $robert = get_field('memorial_photo','options');
-                    if( !empty( $robert ) ): ?>
-                        <img src="<?php echo esc_url($robert['url']); ?>" alt="<?php the_title(); ?>">
-                    <?php endif; ?>
-                </div>
-                <div class="photo-caption">
-                    <?php the_field('memorial_photo_caption','options'); ?>
-                </div>
-                <div class="spacer-30"></div>
-                <h2><?php the_field('memorial_headline','options'); ?></h2>
-                <a href="<?php the_field('memorial_button_link','options'); ?>" title="More about Robert Redick" class="btn green rounded"><?php the_field('memorial_button_text','options'); ?></a>
-            </div>
-        </div>
-    </div>
-</section>
-
 <?php get_footer();

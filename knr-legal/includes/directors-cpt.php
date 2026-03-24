@@ -35,7 +35,7 @@ function create_custom_post_type_directors() {
         'exclude_from_search' => false,
         'capability_type' => 'post',
         'rewrite' => array( 'slug' => '/'),
-        'rewrite' => array( 'slug' => 'directors', 'with_front' => false ),
+        'rewrite' => array( 'slug' => 'leadership', 'with_front' => false ),
         )
     );
 
