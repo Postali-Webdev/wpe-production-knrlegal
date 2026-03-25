@@ -714,10 +714,55 @@
 }
 
 .post-type-archive-directors, .single-directors {
+    .all-attorneys {
+        .columns {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 24px;
+            @include respond(desktop-lg) {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            @include respond(tab-land) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            @include respond(tab-port) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @include respond(phone) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .column-25 {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                img {
+                    margin: 0 !important;
+                    object-fit: cover;
+                    width: 100% !important;
+                    height: 100% !important;
+                    max-height: 100% !important;
+                }   
+            }
+        }
+    }
     .attorney-profile-box {
+        @include respond(phone) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .attorney-photo {
+            @include respond(phone) {
+                width: fit-content;
+            }
+        }
         img {
             filter: grayscale(0%) !important;
             -webkit-filter: grayscale(0%) !important;
+            @include respond(phone) {
+                max-width: 300px;
+                margin: 0 auto !important;
+            }
         }
         .name {
             font-weight: $bold;
