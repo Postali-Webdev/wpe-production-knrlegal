@@ -4910,6 +4910,11 @@
 
                 .custom-logo-link {
                     width: 100%;
+
+                    img {
+                        height: auto;
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -4959,6 +4964,11 @@
             margin:0 60px;
             text-align: center;
             padding: 100px 0;
+
+            @include respond(phone) {
+                padding: 30px 0;
+                margin: 0 30px;
+            }
         }
 
         .banner-cta {
