@@ -4901,10 +4901,16 @@
         #header-top {
              #header-top_left {
                 display: flex;
-                width: 20%;
+                width:-webkit-fit-content;
+                width:-moz-fit-content;
+                width:fit-content;
                 justify-content: center;
                 margin: 0 auto;
                 padding: 15px 0;
+
+                .custom-logo-link {
+                    width: 100%;
+                }
             }
         }
     }
@@ -4917,20 +4923,38 @@
         background-image: url(/wp-content/uploads/2023/03/background-header-img.jpg.webp);
         background-size: cover;
 
+        @include respond(tab-port) {
+            margin:0 !important;
+        }
+
         p {
             font-weight: 900;
+            margin-bottom: 0;
+            line-height: 1.2;
+
+            @include respond(phone) {
+                font-size: 45px;
+            }
 
             &.pre-headline {
-                margin-bottom: 0 !important;
+                margin-bottom: 20px !important;
+
+                @include respond(phone) {
+                    font-size: 20px;
+                }
             }
         }
 
-        
+        section {
+            margin:0 60px;
+            text-align: center;
+            padding: 100px 0;
+        }
 
         .banner-cta {
             flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
+            justify-content: center;
+            align-items: center;
 
             .cta-blocks {
                 display: grid;
@@ -4940,8 +4964,9 @@
                 margin-bottom: 20px;
 
                 @include respond(tab-land) {
-                    display:flex;
-                    flex-wrap: wrap;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    row-gap: 10px;
                 }
 
                 .block {
@@ -4974,10 +4999,6 @@
                             line-height: 120%;
                             text-align: left;
                             text-decoration: none !important;
-
-                            @include respond(tab-land) {
-                                white-space: nowrap;
-                            }
                         }
     
                         p {
@@ -5018,8 +5039,9 @@
                         }
     
                         .icon {
-                            width: 40px;
-                            height: auto;
+                            width: auto;
+                            height: 100%;
+                            max-height: 40px;
 
                             @include respond(phone) {
                                 margin-bottom: 0;
