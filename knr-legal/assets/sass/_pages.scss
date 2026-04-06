@@ -737,7 +737,8 @@
                 margin: 0;
                 img {
                     margin: 0 !important;
-                    object-fit: cover;
+                    -o-object-fit: cover;
+                       object-fit: cover;
                     width: 100% !important;
                     height: 100% !important;
                     max-height: 100% !important;
@@ -753,6 +754,8 @@
         }
         .attorney-photo {
             @include respond(phone) {
+                width: -webkit-fit-content;
+                width: -moz-fit-content;
                 width: fit-content;
             }
         }
@@ -4883,5 +4886,161 @@
     .interior-header .blog-header {
         background-size: contain !important;
         background-repeat: no-repeat !important;
+    }
+}
+
+// QR landing page 
+.page-id-20088 {
+    .columns.copy-and-form,
+    .social-and-menus,
+    .locations {
+        display: none;
+    }
+
+    header {
+        #header-top {
+             #header-top_left {
+                display: flex;
+                width: 20%;
+                justify-content: center;
+                margin: 0 auto;
+                padding: 15px 0;
+            }
+        }
+    }
+
+    .body-container {
+        margin: 0;
+        width: 100%;
+        max-width: 100% !important;
+        margin: 40px auto 0 auto !important;
+        background-image: url(/wp-content/uploads/2023/03/background-header-img.jpg.webp);
+        background-size: cover;
+
+        p {
+            font-weight: 900;
+
+            &.pre-headline {
+                margin-bottom: 0 !important;
+            }
+        }
+
+        
+
+        .banner-cta {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            .cta-blocks {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                -moz-column-gap: 1em;
+                     column-gap: 1em;
+                margin-bottom: 20px;
+
+                @include respond(tab-land) {
+                    display:flex;
+                    flex-wrap: wrap;
+                }
+
+                .block {
+                    @include respond(tab-land) {
+                        width:100%;
+                        margin-bottom: 10px;
+                    }
+
+                    a {
+                        background: #fff;
+                        padding: 20px 30px;
+                        border-radius: 23px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                        box-shadow: 0px 0px 6px #00000029;
+                        text-align: left;
+                        gap: 15px;
+                        text-decoration: none !important;
+    
+                        @include respond(tab-land) {
+                            width: 100%;
+                            flex-direction: row;
+                            box-sizing: border-box;
+                        }
+
+                        .block-highlight {
+                            display: block;
+                            line-height: 120%;
+                            text-align: left;
+                            text-decoration: none !important;
+
+                            @include respond(tab-land) {
+                                white-space: nowrap;
+                            }
+                        }
+    
+                        p {
+                            margin-left: 0;
+                            text-align: center;
+                            line-height: 21px;
+                            font-size: 17px;
+                            text-decoration: none;
+                            font-weight: normal;
+                            background-size: 201% auto;
+                            background-color: transparent;
+                            background-image: linear-gradient(to right, transparent 50%, #DBFF76 50%);
+                            background-position: 0% 0;
+                            -webkit-animation-duration: 1s;
+                            animation-duration: 1s;
+                            -webkit-animation-delay: 0s;
+                            animation-delay: 0s;
+                            -webkit-animation-iteration-count: 1;
+                            animation-iteration-count: 1;
+                            -webkit-animation-fill-mode: forwards;
+                            animation-fill-mode: forwards;
+                            margin-left: -3px;
+                            display:inline-block;
+                            text-align: left;
+
+                            @include respond(tab-land) {
+                                margin-top: 0;
+                            }
+
+                            strong {
+                                font-weight: 900;
+                            }
+
+                            span {
+                                white-space: nowrap;
+                            }
+
+                        }
+    
+                        .icon {
+                            width: 40px;
+                            height: auto;
+
+                            @include respond(phone) {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        a {
+                            cursor: pointer;
+                            
+                            p {
+                                -webkit-animation-name: highlight;
+                                animation-name: highlight;
+                                -moz-column-break-inside: avoid;
+                                break-inside: avoid;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
