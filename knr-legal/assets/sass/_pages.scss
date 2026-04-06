@@ -4915,6 +4915,14 @@
         }
     }
 
+    &.page-template-ppc-block {
+        .body-container {
+            @include respond(tab-port) {
+                margin:0 !important;
+            }
+        }
+    }
+
     .body-container {
         margin: 0;
         width: 100%;
@@ -4932,15 +4940,17 @@
             margin-bottom: 0;
             line-height: 1.2;
 
-            @include respond(phone) {
-                font-size: 45px;
-            }
-
             &.pre-headline {
                 margin-bottom: 20px !important;
 
                 @include respond(phone) {
-                    font-size: 20px;
+                    font-size: 20px !important;
+                }
+            }
+
+            &.headline {
+                @include respond(phone) {
+                    font-size: 45px !important;
                 }
             }
         }
