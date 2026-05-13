@@ -46,7 +46,7 @@ class Knr_Rest_Api {
 	 */
 	public function get_crime_stats() {
 		$directory = trailingslashit( get_stylesheet_directory_uri() );
-		$url       = $directory . '/json/crime-data/2023.json';
+		$url       = $directory . '/json/crime-data/2026.json';
 		$response  = wp_safe_remote_get( $url, [ 'sslverify' => false ] );
 		$body      = wp_remote_retrieve_body( $response );
 		$data      = json_decode( $body );

@@ -1,0 +1,1516 @@
+{
+    "county_stats": {
+        "adams": {
+        "id": 1,
+            "name": "Adams",
+            "population": "27540",
+            "per_100000": "1488.743646",
+            "ranking": "78",
+            "accidents": {
+                "total": "410",
+                "cause_percentages" : {
+                    "alcohol": "5.3658537",
+                    "speeding": "21.4634146"
+                },
+                "percent_fatal": "46.3414634"
+            },
+            "nearest_office": "cincinnati",
+            "square_mileage": 586
+        },
+        "allen": {
+            "id": 2,
+            "name": "Allen",
+            "population": "101348",
+            "per_100000": "3016.33974",
+            "ranking": "6",
+            "accidents" : {
+                "total": "3057",
+                "cause_percentages" : {
+                    "alcohol": "2.9440628",
+                    "speeding": "13.0520118"
+                },
+                "percent_fatal": "32.4174027"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 404
+        },
+        "ashland": {
+            "id": 3,
+            "name": "Ashland",
+            "population": "52256",
+            "per_100000": "2422.688304",
+            "ranking": "31",
+            "accidents" : {
+                "total": "1266",
+                "cause_percentages" : {
+                    "alcohol": "2.6066351",
+                    "speeding": "18.0884676"
+                },
+                "percent_fatal": "40.0473934"
+            },
+            "nearest_office": "akron",
+            "square_mileage": 427
+        },
+        "ashtabula": {
+            "id": 4,
+            "name": "Ashtabula",
+            "population": "97167",
+            "per_100000": "2013.029115",
+            "ranking": "54",
+            "accidents" : {
+                "total": "1956",
+                "cause_percentages" : {
+                    "alcohol": "5.7259714",
+                    "speeding": "16.6666667"
+                },
+                "percent_fatal": "29.8568507"
+            },
+            "nearest_office": "beachwood",
+            "square_mileage": 702
+        },
+        "athens": {
+            "id": 5,
+            "name": "Athens",
+            "population": "61737",
+            "per_100000": "1533.926171",
+            "ranking": "77",
+            "accidents" : {
+                "total": "947",
+                "cause_percentages" : {
+                    "alcohol": "6.4413939",
+                    "speeding": "26.3991552"
+                },
+                "percent_fatal": "35.2692714"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 508
+        },
+        "auglaize": {
+            "id": 6,
+            "name": "Auglaize",
+            "population": "46125",
+            "per_100000": "2328.455285",
+            "ranking": "34",
+            "accidents" : {
+                "total": "1074",
+                "cause_percentages" : {
+                    "alcohol": "2.886406",
+                    "speeding": "18.5288641"
+                },
+                "percent_fatal": "25.8845438"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 402
+        },
+        "belmont": {
+            "id": 7,
+            "name": "Belmont",
+            "population": "65473",
+            "per_100000": "2254.364394",
+            "ranking": "39",
+            "accidents" : {
+                "total": "1476",
+                "cause_percentages" : {
+                    "alcohol": "4.6747967",
+                    "speeding": "20.1897019"
+                },
+                "percent_fatal": "31.4363144"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 541
+        },
+        "brown": {
+            "id": 8,
+            "name": "Brown",
+            "population": "43845",
+            "per_100000": "1785.836469",
+            "ranking": "68",
+            "accidents" : {
+                "total": "783",
+                "cause_percentages" : {
+                    "alcohol": "3.192848",
+                    "speeding": "18.3908046"
+                },
+                "percent_fatal": "35.1213282"
+            },
+            "nearest_office": "cincinnati",
+            "square_mileage": 493
+        },
+        "butler": {
+            "id": 9,
+            "name": "Butler",
+            "population": "392876",
+            "per_100000": "2124.079862",
+            "ranking": "48",
+            "accidents" : {
+                "total": "8345",
+                "cause_percentages" : {
+                    "alcohol": "3.4631516",
+                    "speeding": "8.6638706"
+                },
+                "percent_fatal": "36.836429"
+            },
+            "nearest_office": "cincinnati",
+            "square_mileage": 404.43
+        },
+        "carroll": {
+            "id": 10,
+            "name": "Carroll",
+            "population": "26659",
+            "per_100000": "1391.650099",
+            "ranking": "83",
+            "accidents" : {
+                "total": "371",
+                "cause_percentages" : {
+                    "alcohol": "2.9649596",
+                    "speeding": "14.5552561"
+                },
+                "percent_fatal": "39.083558"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 399
+        },
+        "champaign": {
+            "id": 11,
+            "name": "Champaign",
+            "population": "38804",
+            "per_100000": "1734.357283",
+            "ranking": "73",
+            "accidents" : {
+                "total": "673",
+                "cause_percentages" : {
+                    "alcohol": "3.268945",
+                    "speeding": "9.8068351"
+                },
+                "percent_fatal": "37.8900446"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 430
+        },
+        "clark": {
+            "id": 12,
+            "name": "Clark",
+            "population": "135158",
+            "per_100000": "2721.999438",
+            "ranking": "15",
+            "accidents" : {
+                "total": "3679",
+                "cause_percentages" : {
+                    "alcohol": "3.5335689",
+                    "speeding": "13.7265561"
+                },
+                "percent_fatal": "38.9508018"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 403
+        },
+        "clermont": {
+            "id": 13,
+            "name": "Clermont",
+            "population": "211181",
+            "per_100000": "2217.529039",
+            "ranking": "42",
+            "accidents" : {
+                "total": "4683",
+                "cause_percentages" : {
+                    "alcohol": "3.5233824",
+                    "speeding": "13.1326073"
+                },
+                "percent_fatal": "32.9489643"
+            },
+            "nearest_office": "cincinnati",
+            "square_mileage": 460
+        },
+        "clinton": {
+            "id": 14,
+            "name": "Clinton",
+            "population": "42012",
+            "per_100000": "2718.27097",
+            "ranking": "17",
+            "accidents" : {
+                "total": "1142",
+                "cause_percentages" : {
+                    "alcohol": "4.3782837",
+                    "speeding": "15.2364273"
+                },
+                "percent_fatal": "35.6392294"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 412
+        },
+        "columbiana": {
+            "id": 15,
+            "name": "Columbiana",
+            "population": "100704",
+            "per_100000": "1756.633302",
+            "ranking": "69",
+            "accidents" : {
+                "total": "1769",
+                "cause_percentages" : {
+                    "alcohol": "3.4482759",
+                    "speeding": "12.9451668"
+                },
+                "percent_fatal": "35.9525155"
+            },
+            "nearest_office": "youngstown",
+            "square_mileage": 535
+        },
+        "coshocton": {
+            "id": 16,
+            "name": "Coshocton",
+            "population": "36744",
+            "per_100000": "1594.818202",
+            "ranking": "76",
+            "accidents" : {
+                "total": "586",
+                "cause_percentages" : {
+                    "alcohol": "3.4129693",
+                    "speeding": "12.116041"
+                },
+                "percent_fatal": "33.447099"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 567
+        },
+        "crawford": {
+            "id": 17,
+            "name": "Crawford",
+            "population": "41711",
+            "per_100000": "2013.857256",
+            "ranking": "53",
+            "accidents" : {
+                "total": "840",
+                "cause_percentages" : {
+                    "alcohol": "3.2142857",
+                    "speeding": "10.2380952"
+                },
+                "percent_fatal": "29.5238095"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 403
+        },
+        "cuyahoga": {
+            "id": 18,
+            "name": "Cuyahoga",
+            "population": "1245873",
+            "per_100000": "1942.814396",
+            "ranking": "58",
+            "accidents" : {
+                "total": "24205",
+                "cause_percentages" : {
+                    "alcohol": "3.0902706",
+                    "speeding": "10.5515389"
+                },
+                "percent_fatal": "39.8264821"
+            },
+            "nearest_office": "cleveland",
+            "square_mileage": 457
+        },
+        "darke": {
+            "id": 19,
+            "name": "Darke",
+            "population": "51594",
+            "per_100000": "1854.866845",
+            "ranking": "63",
+            "accidents" : {
+                "total": "957",
+                "cause_percentages" : {
+                    "alcohol": "3.9707419",
+                    "speeding": "9.2998955"
+                },
+                "percent_fatal": "39.0804598"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 600
+        },
+        "defiance": {
+            "id": 20,
+            "name": "Defiance",
+            "population": "38343",
+            "per_100000": "3043.580315",
+            "ranking": "4",
+            "accidents" : {
+                "total": "1167",
+                "cause_percentages" : {
+                    "alcohol": "3.0848329",
+                    "speeding": "12.596401"
+                },
+                "percent_fatal": "25.8783205"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 414
+        },
+        "delaware": {
+            "id": 21,
+            "name": "Delaware",
+            "population": "226834",
+            "per_100000": "1755.909608",
+            "ranking": "70",
+            "accidents" : {
+                "total": "3983",
+                "cause_percentages" : {
+                    "alcohol": "3.0128044",
+                    "speeding": "11.6495104"
+                },
+                "percent_fatal": "41.0996736"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 457
+        },
+        "erie": {
+            "id": 22,
+            "name": "Erie",
+            "population": "74581",
+            "per_100000": "3028.921575",
+            "ranking": "5",
+            "accidents" : {
+                "total": "2259",
+                "cause_percentages" : {
+                    "alcohol": "3.895529",
+                    "speeding": "13.5015494"
+                },
+                "percent_fatal": "30.9428951"
+            },
+            "nearest_office": "westlake",
+            "square_mileage": 626
+        },
+        "fairfield": {
+            "id": 23,
+            "name": "Fairfield",
+            "population": "163453",
+            "per_100000": "1360.635779",
+            "ranking": "84",
+            "accidents" : {
+                "total": "2224",
+                "cause_percentages" : {
+                    "alcohol": "4.0017986",
+                    "speeding": "5.8003597"
+                },
+                "percent_fatal": "37.8597122"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 509
+        },
+        "fayette": {
+            "id": 24,
+            "name": "Fayette",
+            "population": "28876",
+            "per_100000": "2995.567253",
+            "ranking": "7",
+            "accidents" : {
+                "total": "865",
+                "cause_percentages" : {
+                    "alcohol": "3.0057803",
+                    "speeding": "13.9884393"
+                },
+                "percent_fatal": "38.9595376"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 407
+        },
+        "franklin": {
+            "id": 25,
+            "name": "Franklin",
+            "population": "1333048",
+            "per_100000": "1883.728118",
+            "ranking": "61",
+            "accidents" : {
+                "total": "25111",
+                "cause_percentages" : {
+                    "alcohol": "4.3407272",
+                    "speeding": "9.3226076"
+                },
+                "percent_fatal": "42.3280634"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 544
+        },
+        "fulton": {
+            "id": 26,
+            "name": "Fulton",
+            "population": "42240",
+            "per_100000": "2365.056818",
+            "ranking": "32",
+            "accidents" : {
+                "total": "999",
+                "cause_percentages" : {
+                    "alcohol": "3.003003",
+                    "speeding": "17.5175175"
+                },
+                "percent_fatal": "36.3363363"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 407
+        },
+        "gallia": {
+            "id": 27,
+            "name": "Gallia",
+            "population": "29068",
+            "per_100000": "2150.130728",
+            "ranking": "46",
+            "accidents" : {
+                "total": "625",
+                "cause_percentages" : {
+                    "alcohol": "4.16",
+                    "speeding": "16.32"
+                },
+                "percent_fatal": "34.24"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 471
+        },
+        "geauga": {
+            "id": 28,
+            "name": "Geauga",
+            "population": "95481",
+            "per_100000": "1909.28038",
+            "ranking": "59",
+            "accidents" : {
+                "total": "1823",
+                "cause_percentages" : {
+                    "alcohol": "2.7975864",
+                    "speeding": "11.3000549"
+                },
+                "percent_fatal": "41.0312671"
+            },
+            "nearest_office": "beachwood",
+            "square_mileage": 408
+        },
+        "greene": {
+            "id": 29,
+            "name": "Greene",
+            "population": "169688",
+            "per_100000": "2158.078356",
+            "ranking": "44",
+            "accidents" : {
+                "total": "3662",
+                "cause_percentages" : {
+                    "alcohol": "3.6318951",
+                    "speeding": "10.4041507"
+                },
+                "percent_fatal": "30.3932277"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 416
+        },
+        "guernsey": {
+            "id": 30,
+            "name": "Guernsey",
+            "population": "38223",
+            "per_100000": "2890.929545",
+            "ranking": "8",
+            "accidents" : {
+                "total": "1105",
+                "cause_percentages" : {
+                    "alcohol": "3.0769231",
+                    "speeding": "26.9683258"
+                },
+                "percent_fatal": "31.5837104"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 528
+        },
+        "hamilton": {
+            "id": 31,
+            "name": "Hamilton",
+            "population": "830774",
+            "per_100000": "3480.0078",
+            "ranking": "2",
+            "accidents" : {
+                "total": "28911",
+                "cause_percentages" : {
+                    "alcohol": "2.127218",
+                    "speeding": "6.5165508"
+                },
+                "percent_fatal": "29.058144"
+            },
+            "nearest_office": "cincinnati",
+            "square_mileage": 413
+        },
+        "hancock": {
+            "id": 32,
+            "name": "Hancock",
+            "population": "74866",
+            "per_100000": "2772.954345",
+            "ranking": "13",
+            "accidents" : {
+                "total": "2076",
+                "cause_percentages" : {
+                    "alcohol": "2.504817",
+                    "speeding": "14.9325626"
+                },
+                "percent_fatal": "29.5279383"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 534
+        },
+        "hardin": {
+            "id": 33,
+            "name": "Hardin",
+            "population": "30475",
+            "per_100000": "2103.363413",
+            "ranking": "50",
+            "accidents" : {
+                "total": "641",
+                "cause_percentages" : {
+                    "alcohol": "1.5600624",
+                    "speeding": "13.5725429"
+                },
+                "percent_fatal": "23.8689548"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 471
+        },
+        "harrison": {
+            "id": 34,
+            "name": "Harrison",
+            "population": "14306",
+            "per_100000": "1810.429191",
+            "ranking": "66",
+            "accidents" : {
+                "total": "259",
+                "cause_percentages" : {
+                    "alcohol": "8.1081081",
+                    "speeding": "15.0579151"
+                },
+                "percent_fatal": "44.4015444"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 411
+        },
+        "henry": {
+            "id": 35,
+            "name": "Henry",
+            "population": "27567",
+            "per_100000": "2579.170748",
+            "ranking": "24",
+            "accidents" : {
+                "total": "711",
+                "cause_percentages" : {
+                    "alcohol": "3.0942335",
+                    "speeding": "9.8452883"
+                },
+                "percent_fatal": "28.6919831"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 416.5
+        },
+        "highland": {
+            "id": 36,
+            "name": "Highland",
+            "population": "43517",
+            "per_100000": "1475.285521",
+            "ranking": "81",
+            "accidents" : {
+                "total": "642",
+                "cause_percentages" : {
+                    "alcohol": "3.4267913",
+                    "speeding": "13.7071651"
+                },
+                "percent_fatal": "42.834891"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 553.08
+        },
+        "hocking": {
+            "id": 37,
+            "name": "Hocking",
+            "population": "27799",
+            "per_100000": "1985.682938",
+            "ranking": "57",
+            "accidents" : {
+                "total": "552",
+                "cause_percentages" : {
+                    "alcohol": "4.5289855",
+                    "speeding": "31.1594203"
+                },
+                "percent_fatal": "32.9710145"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 424
+        },
+        "holmes": {
+            "id": 38,
+            "name": "Holmes",
+            "population": "44418",
+            "per_100000": "1479.130082",
+            "ranking": "80",
+            "accidents" : {
+                "total": "657",
+                "cause_percentages" : {
+                    "alcohol": "1.826484",
+                    "speeding": "20.2435312"
+                },
+                "percent_fatal": "34.3987823"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 424
+        },
+        "huron": {
+            "id": 39,
+            "name": "Huron",
+            "population": "58319",
+            "per_100000": "2220.54562",
+            "ranking": "41",
+            "accidents" : {
+                "total": "1295",
+                "cause_percentages" : {
+                    "alcohol": "3.1660232",
+                    "speeding": "12.4324324"
+                },
+                "percent_fatal": "31.969112"
+            },
+            "nearest_office": "westlake",
+            "square_mileage": 495
+        },
+        "jackson": {
+            "id": 40,
+            "name": "Jackson",
+            "population": "32650",
+            "per_100000": "2474.732006",
+            "ranking": "27",
+            "accidents" : {
+                "total": "808",
+                "cause_percentages" : {
+                    "alcohol": "4.2079208",
+                    "speeding": "16.2128713"
+                },
+                "percent_fatal": "33.539604"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 422
+        },
+        "jefferson": {
+            "id": 41,
+            "name": "Jefferson",
+            "population": "64518",
+            "per_100000": "1487.956849",
+            "ranking": "79",
+            "accidents" : {
+                "total": "960",
+                "cause_percentages" : {
+                    "alcohol": "5.625",
+                    "speeding": "20.625"
+                },
+                "percent_fatal": "34.1666667"
+            },
+            "nearest_office": "youngstown",
+            "square_mileage": 411
+        },
+        "knox": {
+            "id": 42,
+            "name": "Knox",
+            "population": "63142",
+            "per_100000": "1751.607488",
+            "ranking": "71",
+            "accidents" : {
+                "total": "1106",
+                "cause_percentages" : {
+                    "alcohol": "2.9837251",
+                    "speeding": "10.2169982"
+                },
+                "percent_fatal": "37.0705244"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 530
+        },
+        "lake": {
+            "id": 43,
+            "name": "Lake",
+            "population": "232216",
+            "per_100000": "1744.06587",
+            "ranking": "72",
+            "accidents" : {
+                "total": "4050",
+                "cause_percentages" : {
+                    "alcohol": "4.0987654",
+                    "speeding": "12.3703704"
+                },
+                "percent_fatal": "31.5802469"
+            },
+            "nearest_office": "beachwood",
+            "square_mileage": 979
+        },
+        "lawrence": {
+            "id": 44,
+            "name": "Lawrence",
+            "population": "56819",
+            "per_100000": "2002.851159",
+            "ranking": "55",
+            "accidents" : {
+                "total": "1138",
+                "cause_percentages" : {
+                    "alcohol": "3.8664323",
+                    "speeding": "12.741652"
+                },
+                "percent_fatal": "38.8400703"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 457
+        },
+        "licking": {
+            "id": 45,
+            "name": "Licking",
+            "population": "181837",
+            "per_100000": "2285.563444",
+            "ranking": "36",
+            "accidents" : {
+                "total": "4156",
+                "cause_percentages" : {
+                    "alcohol": "3.4889317",
+                    "speeding": "13.6188643"
+                },
+                "percent_fatal": "33.9268527"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 687
+        },
+        "logan": {
+            "id": 46,
+            "name": "Logan",
+            "population": "46089",
+            "per_100000": "1605.589186",
+            "ranking": "75",
+            "accidents" : {
+                "total": "740",
+                "cause_percentages" : {
+                    "alcohol": "2.7027027",
+                    "speeding": "11.3513514"
+                },
+                "percent_fatal": "36.4864865"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 467
+        },
+        "lorain": {
+            "id": 47,
+            "name": "Lorain",
+            "population": "317129",
+            "per_100000": "1887.244623",
+            "ranking": "60",
+            "accidents" : {
+                "total": "5985",
+                "cause_percentages" : {
+                    "alcohol": "4.0935673",
+                    "speeding": "10.6766917"
+                },
+                "percent_fatal": "36.3074353"
+            },
+            "nearest_office": "westlake",
+            "square_mileage": 491
+        },
+        "lucas": {
+            "id": 48,
+            "name": "Lucas",
+            "population": "428018",
+            "per_100000": "2653.159447",
+            "ranking": "19",
+            "accidents" : {
+                "total": "11356",
+                "cause_percentages" : {
+                    "alcohol": "2.7914759",
+                    "speeding": "6.7101092"
+                },
+                "percent_fatal": "35.9193378"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 596
+        },
+        "madison": {
+            "id": 49,
+            "name": "Madison",
+            "population": "44423",
+            "per_100000": "2611.259933",
+            "ranking": "20",
+            "accidents" : {
+                "total": "1160",
+                "cause_percentages" : {
+                    "alcohol": "3.2758621",
+                    "speeding": "17.5"
+                },
+                "percent_fatal": "40.1724138"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 467
+        },
+        "mahoning": {
+            "id": 50,
+            "name": "Mahoning",
+            "population": "226491",
+            "per_100000": "2479.568725",
+            "ranking": "26",
+            "accidents" : {
+                "total": "5616",
+                "cause_percentages" : {
+                    "alcohol": "2.3504274",
+                    "speeding": "11.0933048"
+                },
+                "percent_fatal": "35.042735"
+            },
+            "nearest_office": "youngstown",
+            "square_mileage": 425
+        },
+        "marion": {
+            "id": 51,
+            "name": "Marion",
+            "population": "65020",
+            "per_100000": "2602.276223",
+            "ranking": "21",
+            "accidents" : {
+                "total": "1692",
+                "cause_percentages" : {
+                    "alcohol": "3.3096927",
+                    "speeding": "14.893617"
+                },
+                "percent_fatal": "38.7706856"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 404
+        },
+        "medina": {
+            "id": 52,
+            "name": "Medina",
+            "population": "183660",
+            "per_100000": "1840.901666",
+            "ranking": "65",
+            "accidents" : {
+                "total": "3381",
+                "cause_percentages" : {
+                    "alcohol": "3.1647442",
+                    "speeding": "12.5702455"
+                },
+                "percent_fatal": "27.4475007"
+            },
+            "nearest_office": "akron",
+            "square_mileage": 423
+        },
+        "meigs": {
+            "id": 53,
+            "name": "Meigs",
+            "population": "21896",
+            "per_100000": "1196.565583",
+            "ranking": "85",
+            "accidents" : {
+                "total": "262",
+                "cause_percentages" : {
+                    "alcohol": "6.1068702",
+                    "speeding": "22.519084"
+                },
+                "percent_fatal": "45.8015267"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 433
+        },
+        "mercer": {
+            "id": 54,
+            "name": "Mercer",
+            "population": "42484",
+            "per_100000": "1845.400621",
+            "ranking": "64",
+            "accidents" : {
+                "total": "784",
+                "cause_percentages" : {
+                    "alcohol": "2.6785714",
+                    "speeding": "15.1785714"
+                },
+                "percent_fatal": "36.7346939"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 473
+        },
+        "miami": {
+            "id": 55,
+            "name": "Miami",
+            "population": "110296",
+            "per_100000": "2155.109886",
+            "ranking": "45",
+            "accidents" : {
+                "total": "2377",
+                "cause_percentages" : {
+                    "alcohol": "3.4917964",
+                    "speeding": "10.3912495"
+                },
+                "percent_fatal": "27.7660917"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 410
+        },
+        "monroe": {
+            "id": 56,
+            "name": "Monroe",
+            "population": "13227",
+            "per_100000": "1103.802828",
+            "ranking": "88",
+            "accidents" : {
+                "total": "146",
+                "cause_percentages" : {
+                    "alcohol": "11.6438356",
+                    "speeding": "12.3287671"
+                },
+                "percent_fatal": "33.5616438"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 457
+        },
+        "montgomery": {
+            "id": 57,
+            "name": "Montgomery",
+            "population": "536096",
+            "per_100000": "2242.322271",
+            "ranking": "40",
+            "accidents" : {
+                "total": "12021",
+                "cause_percentages" : {
+                    "alcohol": "3.9015057",
+                    "speeding": "9.6081857"
+                },
+                "percent_fatal": "43.7983529"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 464
+        },
+        "morgan": {
+            "id": 58,
+            "name": "Morgan",
+            "population": "13651",
+            "per_100000": "1179.400776",
+            "ranking": "86",
+            "accidents" : {
+                "total": "161",
+                "cause_percentages" : {
+                    "alcohol": "2.484472",
+                    "speeding": "10.5590062"
+                },
+                "percent_fatal": "45.3416149"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 422
+        },
+        "morrow": {
+            "id": 59,
+            "name": "Morrow",
+            "population": "35404",
+            "per_100000": "2595.751892",
+            "ranking": "22",
+            "accidents" : {
+                "total": "919",
+                "cause_percentages" : {
+                    "alcohol": "5.5495103",
+                    "speeding": "18.9336235"
+                },
+                "percent_fatal": "40.2611534"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 407
+        },
+        "muskingum": {
+            "id": 60,
+            "name": "Muskingum",
+            "population": "86411",
+            "per_100000": "2794.783072",
+            "ranking": "12",
+            "accidents" : {
+                "total": "2415",
+                "cause_percentages" : {
+                    "alcohol": "4.2650104",
+                    "speeding": "13.3747412"
+                },
+                "percent_fatal": "31.4699793"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 673
+        },
+        "noble": {
+            "id": 61,
+            "name": "Noble",
+            "population": "14282",
+            "per_100000": "1155.300378",
+            "ranking": "87",
+            "accidents" : {
+                "total": "165",
+                "cause_percentages" : {
+                    "alcohol": "4.8484848",
+                    "speeding": "13.9393939"
+                },
+                "percent_fatal": "24.8484848"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 405
+        },
+        "ottawa": {
+            "id": 62,
+            "name": "Ottawa",
+            "population": "39994",
+            "per_100000": "2095.314297",
+            "ranking": "51",
+            "accidents" : {
+                "total": "838",
+                "cause_percentages" : {
+                    "alcohol": "4.0572792",
+                    "speeding": "9.4272076"
+                },
+                "percent_fatal": "28.5202864"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 585
+        },
+        "paulding": {
+            "id": 63,
+            "name": "Paulding",
+            "population": "18791",
+            "per_100000": "2847.107658",
+            "ranking": "10",
+            "accidents" : {
+                "total": "535",
+                "cause_percentages" : {
+                    "alcohol": "3.7383178",
+                    "speeding": "10.2803738"
+                },
+                "percent_fatal": "24.6728972"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 419
+        },
+        "perry": {
+            "id": 64,
+            "name": "Perry",
+            "population": "35535",
+            "per_100000": "1623.751231",
+            "ranking": "74",
+            "accidents" : {
+                "total": "577",
+                "cause_percentages" : {
+                    "alcohol": "5.8925477",
+                    "speeding": "9.0121317"
+                },
+                "percent_fatal": "50.0866551"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 412
+        },
+        "pickaway": {
+            "id": 65,
+            "name": "Pickaway",
+            "population": "60131",
+            "per_100000": "2346.54338",
+            "ranking": "33",
+            "accidents" : {
+                "total": "1411",
+                "cause_percentages" : {
+                    "alcohol": "2.6931254",
+                    "speeding": "12.3316797"
+                },
+                "percent_fatal": "38.0581148"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 507
+        },
+        "pike": {
+            "id": 66,
+            "name": "Pike",
+            "population": "27044",
+            "per_100000": "2285.164916",
+            "ranking": "37",
+            "accidents" : {
+                "total": "618",
+                "cause_percentages" : {
+                    "alcohol": "2.4271845",
+                    "speeding": "16.0194175"
+                },
+                "percent_fatal": "40.6148867"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 444
+        },
+        "portage": {
+            "id": 67,
+            "name": "Portage",
+            "population": "161956",
+            "per_100000": "2275.926795",
+            "ranking": "38",
+            "accidents" : {
+                "total": "3686",
+                "cause_percentages" : {
+                    "alcohol": "4.2593597",
+                    "speeding": "13.9175258"
+                },
+                "percent_fatal": "34.1020076"
+            },
+            "nearest_office": "akron",
+            "square_mileage": 504
+        },
+        "preble": {
+            "id": 68,
+            "name": "Preble",
+            "population": "40765",
+            "per_100000": "2082.668956",
+            "ranking": "52",
+            "accidents" : {
+                "total": "849",
+                "cause_percentages" : {
+                    "alcohol": "3.6513545",
+                    "speeding": "16.4899882"
+                },
+                "percent_fatal": "34.0400471"
+            },
+            "nearest_office": "cincinnati",
+            "square_mileage": 426
+        },
+        "putnam": {
+            "id": 69,
+            "name": "Putnam",
+            "population": "34314",
+            "per_100000": "1468.78825",
+            "ranking": "82",
+            "accidents" : {
+                "total": "504",
+                "cause_percentages" : {
+                    "alcohol": "2.5793651",
+                    "speeding": "8.7301587"
+                },
+                "percent_fatal": "26.1904762"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 484
+        },
+        "richland": {
+            "id": 70,
+            "name": "Richland",
+            "population": "125099",
+            "per_100000": "2828.959464",
+            "ranking": "11",
+            "accidents" : {
+                "total": "3539",
+                "cause_percentages" : {
+                    "alcohol": "3.5320712",
+                    "speeding": "22.2661769"
+                },
+                "percent_fatal": "33.9361402"
+            },
+            "nearest_office": "akron",
+            "square_mileage": 500
+        },
+        "ross": {
+            "id": 71,
+            "name": "Ross",
+            "population": "76492",
+            "per_100000": "2766.302358",
+            "ranking": "14",
+            "accidents" : {
+                "total": "2116",
+                "cause_percentages" : {
+                    "alcohol": "3.6389414",
+                    "speeding": "15.3591682"
+                },
+                "percent_fatal": "37.6181474"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 693
+        },
+        "sandusky": {
+            "id": 72,
+            "name": "Sandusky",
+            "population": "58778",
+            "per_100000": "2876.926741",
+            "ranking": "9",
+            "accidents" : {
+                "total": "1691",
+                "cause_percentages" : {
+                    "alcohol": "3.4299231",
+                    "speeding": "16.5582496"
+                },
+                "percent_fatal": "34.2992312"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 418
+        },
+        "scioto": {
+            "id": 73,
+            "name": "Scioto",
+            "population": "72627",
+            "per_100000": "2448.125353",
+            "ranking": "29",
+            "accidents" : {
+                "total": "1778",
+                "cause_percentages" : {
+                    "alcohol": "2.0809899",
+                    "speeding": "21.5410574"
+                },
+                "percent_fatal": "34.6456693"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 616
+        },
+        "seneca": {
+            "id": 74,
+            "name": "Seneca",
+            "population": "54770",
+            "per_100000": "2587.182764",
+            "ranking": "23",
+            "accidents" : {
+                "total": "1417",
+                "cause_percentages" : {
+                    "alcohol": "2.9640085",
+                    "speeding": "11.5737474"
+                },
+                "percent_fatal": "30.2752294"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 553
+        },
+        "shelby": {
+            "id": 75,
+            "name": "Shelby",
+            "population": "47929",
+            "per_100000": "2434.851551",
+            "ranking": "30",
+            "accidents" : {
+                "total": "1167",
+                "cause_percentages" : {
+                    "alcohol": "3.9417309",
+                    "speeding": "17.6520994"
+                },
+                "percent_fatal": "24.764353"
+            },
+            "nearest_office": "dayton",
+            "square_mileage": 411
+        },
+        "stark": {
+            "id": 76,
+            "name": "Stark",
+            "population": "373713",
+            "per_100000": "2297.217383",
+            "ranking": "35",
+            "accidents" : {
+                "total": "8585",
+                "cause_percentages" : {
+                    "alcohol": "3.3197437",
+                    "speeding": "8.8759464"
+                },
+                "percent_fatal": "31.5550379"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 581
+        },
+        "summit": {
+            "id": 77,
+            "name": "Summit",
+            "population": "537864",
+            "per_100000": "2453.408297",
+            "ranking": "28",
+            "accidents" : {
+                "total": "13196",
+                "cause_percentages" : {
+                    "alcohol": "2.6220067",
+                    "speeding": "10.0939679"
+                },
+                "percent_fatal": "30.190967"
+            },
+            "nearest_office": "akron",
+            "square_mileage": 419
+        },
+        "trumbull": {
+            "id": 78,
+            "name": "Trumbull",
+            "population": "200929",
+            "per_100000": "2137.073295",
+            "ranking": "47",
+            "accidents" : {
+                "total": "4294",
+                "cause_percentages" : {
+                    "alcohol": "3.7727061",
+                    "speeding": "14.5086167"
+                },
+                "percent_fatal": "36.3530508"
+            },
+            "nearest_office": "youngstown",
+            "square_mileage": 637
+        },
+        "tuscarawas": {
+            "id": 79,
+            "name": "Tuscarawas",
+            "population": "92385",
+            "per_100000": "2660.605077",
+            "ranking": "18",
+            "accidents" : {
+                "total": "2458",
+                "cause_percentages" : {
+                    "alcohol": "3.2139951",
+                    "speeding": "20.7078926"
+                },
+                "percent_fatal": "28.2343369"
+            },
+            "nearest_office": "canton",
+            "square_mileage": 571
+        },
+        "union": {
+            "id": 80,
+            "name": "Union",
+            "population": "67324",
+            "per_100000": "2167.132078",
+            "ranking": "43",
+            "accidents" : {
+                "total": "1459",
+                "cause_percentages" : {
+                    "alcohol": "3.2213845",
+                    "speeding": "13.9821796"
+                },
+                "percent_fatal": "32.145305"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 437
+        },
+        "van wert": {
+            "id": 81,
+            "name": "Van Wert",
+            "population": "28826",
+            "per_100000": "2525.497814",
+            "ranking": "25",
+            "accidents" : {
+                "total": "728",
+                "cause_percentages" : {
+                    "alcohol": "2.1978022",
+                    "speeding": "17.032967"
+                },
+                "percent_fatal": "27.4725275"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 410
+        },
+        "vinton": {
+            "id": 82,
+            "name": "Vinton",
+            "population": "12630",
+            "per_100000": "1995.249406",
+            "ranking": "56",
+            "accidents" : {
+                "total": "252",
+                "cause_percentages" : {
+                    "alcohol": "3.968254",
+                    "speeding": "15.0793651"
+                },
+                "percent_fatal": "33.3333333"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 415
+        },
+        "warren": {
+            "id": 83,
+            "name": "Warren",
+            "population": "250008",
+            "per_100000": "2117.132252",
+            "ranking": "49",
+            "accidents" : {
+                "total": "5293",
+                "cause_percentages" : {
+                    "alcohol": "3.2117892",
+                    "speeding": "11.2223692"
+                },
+                "percent_fatal": "31.1543548"
+            },
+            "nearest_office": "cincinnati",
+            "square_mileage": 407
+        },
+        "washington": {
+            "id": 84,
+            "name": "Washington",
+            "population": "58978",
+            "per_100000": "1800.671437",
+            "ranking": "67",
+            "accidents" : {
+                "total": "1062",
+                "cause_percentages" : {
+                    "alcohol": "4.0489642",
+                    "speeding": "13.1826742"
+                },
+                "percent_fatal": "32.9566855"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 640
+        },
+        "wayne": {
+            "id": 85,
+            "name": "Wayne",
+            "population": "116588",
+            "per_100000": "1874.120836",
+            "ranking": "62",
+            "accidents" : {
+                "total": "2185",
+                "cause_percentages" : {
+                    "alcohol": "2.6086957",
+                    "speeding": "14.0961098"
+                },
+                "percent_fatal": "35.8810069"
+            },
+            "nearest_office": "akron",
+            "square_mileage": 557
+        },
+        "williams": {
+            "id": 86,
+            "name": "Williams",
+            "population": "36719",
+            "per_100000": "3240.828999",
+            "ranking": "3",
+            "accidents" : {
+                "total": "1190",
+                "cause_percentages" : {
+                    "alcohol": "1.34",
+                    "speeding": "11.59"
+                },
+                "percent_fatal": "23.1932773"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 423
+        },
+        "wood": {
+            "id": 87,
+            "name": "Wood",
+            "population": "132064",
+            "per_100000": "2718.378968",
+            "ranking": "16",
+            "accidents" : {
+                "total": "3590",
+                "cause_percentages" : {
+                    "alcohol": "3.5376045",
+                    "speeding": "12.5905292"
+                },
+                "percent_fatal": "27.9665738"
+            },
+            "nearest_office": "toledo",
+            "square_mileage": 620
+        },
+        "wyandot": {
+            "id": 88,
+            "name": "Wyandot",
+            "population": "21598",
+            "per_100000": "3486.433929",
+            "ranking": "1",
+            "accidents" : {
+                "total": "753",
+                "cause_percentages" : {
+                    "alcohol": "2.2576361",
+                    "speeding": "15.4050465"
+                },
+                "percent_fatal": "26.0292165"
+            },
+            "nearest_office": "columbus",
+            "square_mileage": 408
+        }
+    },
+    "state_stats": {
+        "15": 120,
+        "16_20": 457,
+        "21_25": 416,
+        "26_30": 315,
+        "31_35": 243,
+        "36_40": 202,
+        "41_45": 167,
+        "46_50": 165,
+        "51_55": 161,
+        "56_60": 153,
+        "61_65": 122,
+        "66_70": 95,
+        "71_75": 64,
+        "76": 106
+    }
+}

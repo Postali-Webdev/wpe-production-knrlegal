@@ -20,8 +20,8 @@ if( $datatype == 'accidents' ) {
 if (!function_exists('get_json_data_from_theme_folder')) {
     function get_json_data_from_theme_folder($county_name) {
 
-        if (!defined( get_stylesheet_directory_uri() . '/json/crime-data/2023.json' )) {
-            $json_file_path = get_stylesheet_directory_uri() . '/json/crime-data/2023.json';
+        if (!defined( get_stylesheet_directory_uri() . '/json/crime-data/2026.json' )) {
+            $json_file_path = get_stylesheet_directory_uri() . '/json/crime-data/2026.json';
             $json_data = file_get_contents( $json_file_path );
             $county = json_decode($json_data);
             return $county->county_stats->$county_name;
@@ -29,7 +29,7 @@ if (!function_exists('get_json_data_from_theme_folder')) {
     }
 }
 
-if (!defined( get_stylesheet_directory_uri() . '/json/crime-data/2023.json' )) {
+if (!defined( get_stylesheet_directory_uri() . '/json/crime-data/2026.json' )) {
     $county = get_json_data_from_theme_folder($atts['county']);
 }
 

@@ -63,7 +63,7 @@ class Knr_Keystone {
 	}
 
 	private function get_accident_data() : array {
-		$url      = get_stylesheet_directory_uri() . '/json/crime-data/2023.json';
+		$url      = get_stylesheet_directory_uri() . '/json/crime-data/2026.json';
 		$response = wp_safe_remote_get( $url, [ 'sslverify' => false ] );
 		$body     = wp_remote_retrieve_body( $response );
 		$data     = json_decode( $body, true );
