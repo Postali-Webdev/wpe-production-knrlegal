@@ -210,6 +210,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo( 'charset' ); ?>">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <?php wp_head(); ?>
+
+
+<!--MNTN Tracking Pixel-->
+<script type="text/javascript">
+(function(){"use strict";var e=null,n="63510",additional="",t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i!==null?encodeURIComponent(i.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}
+h="https://dx.mountain.com/spx?"+"shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=h;v.parentNode.insertBefore(c,v)})();
+</script>
+
+<?php if( is_page('14467') ) : ?>
+    <!--MNTN Conversion Pixel-->
+    <script type="text/javascript">
+    (function(){var x=null,p,q,m,o="63510",conversion_type="",order_id="ORDER ID",order_amt="ORDER AMOUNT",b="",c="",k="",g="",j="",u="";try{p=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(n){p=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{m=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(z){try{m!==null?encodeURIComponent(i.toString().substring(0,2048)):""}catch(h){m=""}}var A,y=document.createElement("script"),w=null,v=document.getElementsByTagName("script"),t=Number(v.length)-1,r=document.getElementsByTagName("script")[t];if(typeof A==="undefined"){A=Math.floor(Math.random()*1e17)}w="https://dx.mountain.com/spx?conv=1"+"&shaid="+o+"&tdr="+p+"&plh="+m+"&cb="+A+"&shoid="+order_id+"&shoamt="+order_amt+"&type="+conversion_type+"&shocur="+c+"&shopid="+k+"&shoq="+g+"&shoup="+j+"&shpil="+u+b;y.type="text/javascript";y.src=w;r.parentNode.insertBefore(y,r)}());
+    </script>
+<?php endif; ?>
+
 </head>
 
 <body <?php body_class(); ?>>
