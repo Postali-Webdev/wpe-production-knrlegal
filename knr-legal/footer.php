@@ -181,6 +181,12 @@ if (is_tree('19502')) {
 <script type="text/javascript" src="//dynamic.criteo.com/js/ld/ld.js?a=56512" async="true"></script>
 <!-- END Criteo Loader File -->
 
+<!--MNTN Tracking Pixel-->
+<script type="text/javascript">
+(function(){"use strict";var e=null,n="63510",additional="",t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i!==null?encodeURIComponent(i.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}
+h="https://dx.mountain.com/spx?"+"shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=h;v.parentNode.insertBefore(c,v)})();
+</script>
+
 <?php wp_footer(); ?>
 
 </body>
