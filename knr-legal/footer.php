@@ -181,6 +181,8 @@ if (is_tree('19502')) {
 <script type="text/javascript" src="//dynamic.criteo.com/js/ld/ld.js?a=56512" async="true"></script>
 <!-- END Criteo Loader File -->
 
+
+<!-- OpenAI Ads -->
 <script>
   window.oaiq = window.oaiq || function () {
     (window.oaiq.q = window.oaiq.q || []).push(arguments);
@@ -189,6 +191,38 @@ if (is_tree('19502')) {
 </script>
 <script async src="https://bzrcdn.openai.com/sdk/oaiq.min.js"></script>
 
+
+<script>
+(function() {
+  function uid(prefix) {
+    return prefix + '_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8);
+  }
+
+  // ---- CLICK TO CALL ----
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a[href^="tel:"]');
+    if (!link) return;
+    oaiq('measure', 'click_to_call', {
+      type: 'customer_action'
+    }, {
+      event_id: uid('call')
+    });
+  });
+
+  // ---- FORM SUBMISSION ----
+  // Gravity Forms
+  if (window.jQuery) {
+    jQuery(document).on('gform_confirmation_loaded', function() {
+      oaiq('measure', 'form_submission', {
+        type: 'customer_action'
+      }, {
+        event_id: uid('form')
+      });
+    });
+  }
+})();
+</script>
+<!-- /OpenAI Ads -->
 
 <?php wp_footer(); ?>
 
