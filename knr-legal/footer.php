@@ -181,6 +181,15 @@ if (is_tree('19502')) {
 <script type="text/javascript" src="//dynamic.criteo.com/js/ld/ld.js?a=56512" async="true"></script>
 <!-- END Criteo Loader File -->
 
+<script>
+  window.oaiq = window.oaiq || function () {
+    (window.oaiq.q = window.oaiq.q || []).push(arguments);
+  };
+  oaiq("init", { pixelId: "BTAfatfAboB74sXMx3xDYe" });
+</script>
+<script async src="https://bzrcdn.openai.com/sdk/oaiq.min.js"></script>
+
+
 <?php wp_footer(); ?>
 
 </body>
