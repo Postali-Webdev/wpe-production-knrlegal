@@ -190,38 +190,6 @@ if (is_tree('19502')) {
   oaiq("init", { pixelId: "BTAfatfAboB74sXMx3xDYe" });
 </script>
 <script async src="https://bzrcdn.openai.com/sdk/oaiq.min.js"></script>
-
-
-<script>
-(function() {
-  function uid(prefix) {
-    return prefix + '_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8);
-  }
-
-  // ---- CLICK TO CALL ----
-  document.addEventListener('click', function(e) {
-    var link = e.target.closest('a[href^="tel:"]');
-    if (!link) return;
-    oaiq('measure', 'click_to_call', {
-      type: 'customer_action'
-    }, {
-      event_id: uid('call')
-    });
-  });
-
-  // ---- FORM SUBMISSION ----
-  // Gravity Forms
-  if (window.jQuery) {
-    jQuery(document).on('gform_confirmation_loaded', function() {
-      oaiq('measure', 'form_submission', {
-        type: 'customer_action'
-      }, {
-        event_id: uid('form')
-      });
-    });
-  }
-})();
-</script>
 <!-- /OpenAI Ads -->
 
 <?php wp_footer(); ?>
