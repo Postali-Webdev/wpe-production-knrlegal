@@ -42,7 +42,9 @@ get_header(); ?>
                             'page-ppc-landing_v2.php',
                             'page-ppc-landing_v3.php',
                             'page-ppc-landing-pmax.php',
-                            'ppc-block.php'
+                            'ppc-block.php',
+                            'page-hona-interior.php'
+
                         );
                         
                         $ppc_ids = array();
