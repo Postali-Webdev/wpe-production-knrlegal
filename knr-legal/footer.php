@@ -194,6 +194,7 @@ if (is_tree('19502')) {
 
 <?php wp_footer(); ?>
 
+<!-- hona chat -->
 <?php if( is_page_template( 'page-hona-interior.php' ) ) : ?>
 <script
   id="company-webchat"
@@ -202,12 +203,15 @@ if (is_tree('19502')) {
   hona-id="1053">
 </script>
 <?php endif; ?>
+<!-- /hona chat -->
 
+<!-- apex chat -->
 <?php if( !is_page_template( 'page-hona-interior.php' ) ) : ?>
     <script 
     src="//www.apexchat.net/scripts/invitation.ashx?company=knrlegal"async>
     </script>
 <?php endif; ?>
+<!-- /apex chat -->
 
 </body>
 </html>
