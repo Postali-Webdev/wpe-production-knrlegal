@@ -194,6 +194,15 @@ if (is_tree('19502')) {
 
 <?php wp_footer(); ?>
 
+<?php if( is_page_template( 'page-hona-interior.php' ) ) : ?>
+<script
+  id="company-webchat"
+  src="https://chatbot.hona.com/main.js"
+  company-webchat-api-key="c8116857-b49e-46d5-9515-6ee29d001cbe"
+  hona-id="1053">
+</script>
+<?php endif; ?>
+
 </body>
 </html>
 
