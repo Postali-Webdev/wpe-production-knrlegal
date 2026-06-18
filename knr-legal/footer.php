@@ -203,6 +203,12 @@ if (is_tree('19502')) {
 </script>
 <?php endif; ?>
 
+<?php if( !is_page_template( 'page-hona-interior.php' ) ) : ?>
+    <script 
+    src="//www.apexchat.net/scripts/invitation.ashx?company=knrlegal"async>
+    </script>
+<?php endif; ?>
+
 </body>
 </html>
 
