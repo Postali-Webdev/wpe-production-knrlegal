@@ -1220,3 +1220,47 @@
         }
     }
 }
+
+.page-template-page-ppc-landing {
+    #about {
+        .attorney_blocks {
+            margin-top: 120px;
+            justify-content: flex-start !important;
+            .slick-list {
+                min-width: 300px;
+                min-height: 300px;
+                width: 300px;
+                height: 300px;
+                .slick-track {
+                    margin: 0;
+                    min-width: 300px;
+                }
+            }
+            .attorney-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            a {
+                display: block;
+                min-width: 300px !important;
+                min-height: 300px !important; 
+                .attorney-img {
+                    width: 300px;
+                    height: 300px;
+                    min-width: 300px;
+                    min-height: 300px;
+                }
+                img {
+                    object-fit: cover;
+                    width: 300px;
+                    height: 300px;
+                    min-width: 300px;
+                    min-height: 300px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
