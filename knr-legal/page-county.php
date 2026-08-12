@@ -61,7 +61,7 @@ get_header();
 				<span class="speed-text">ACCIDENTS <br>PER CAPITA</span>
 			</div>
 			<div class="count-accidents">
-				<h4><?php echo esc_html( $county['name'] ); ?> COUNTY HAD A TOTAL OF <br><span class="count number-bar" data-count="<?php echo esc_attr( $county['accidents']['total'] ); ?>"></span> TRAFFIC ACCIDENTS IN 2023</h4>
+				<h4><?php echo esc_html( $county['name'] ); ?> COUNTY HAD A TOTAL OF <br><span class="count number-bar" data-count="<?php echo esc_attr( $county['accidents']['total'] ); ?>"></span> TRAFFIC ACCIDENTS LAST YEAR</h4>
 				<img src="<?php echo esc_attr( get_stylesheet_directory_uri() . '/images/keystone/count-accidents.png' ); ?>" alt="Accidents">
 			</div>
 		</div>

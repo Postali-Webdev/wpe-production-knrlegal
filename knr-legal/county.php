@@ -128,7 +128,7 @@ $ohio_data = (array)($array->ohio_averages);
                 <span class="speed-text">ACCIDENTS <br>PER CAPITA</span>
             </div>
             <div class="count-accidents">
-                <h4><?php echo $county['county']; ?> COUNTY HAD A TOTAL OF <br><span class="count number-bar" data-count="<?php echo $county['total_accidents']; ?>"></span> TRAFFIC ACCIDENTS IN 2023</h4>
+                <h4><?php echo $county['county']; ?> COUNTY HAD A TOTAL OF <br><span class="count number-bar" data-count="<?php echo $county['total_accidents']; ?>"></span> TRAFFIC ACCIDENTS LAST YEAR</h4>
                 <img src="/wp-content/themes/knr-legal/images/keystone/count-accidents.png" alt="Accidents">
             </div>
         </div>
