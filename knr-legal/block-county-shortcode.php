@@ -65,7 +65,7 @@ if( $datatype == 'accidents' ) {
                 <span class='speed-text'>ACCIDENTS <br>PER CAPITA</span>
             </div>
             <div class='count-accidents'>
-                <h4>{$county->name} COUNTY HAD A TOTAL OF <br><span class='count number-bar' data-count='{$county->accidents->total}'></span> TRAFFIC ACCIDENTS IN 2023</h4>
+                <h4>{$county->name} COUNTY HAD A TOTAL OF <br><span class='count number-bar' data-count='{$county->accidents->total}'></span> TRAFFIC ACCIDENTS LAST YEAR</h4>
                 <img src='{$count_accident_img_src}' alt='Accidents'>
             </div>
         </div>
